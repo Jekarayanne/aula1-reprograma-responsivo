@@ -1,0 +1,54 @@
+*/ reset de página */
+ {
+    margin: 0;
+    padding: 0;
+}
+
+*/ definições Padrão*/
+.body {
+     background-color: #f8f9fa;
+     font-family: 'Nunito', sans-serif; 
+     font-size: 14px;
+ }
+ .container {
+     margin: 0 auto;
+     width: 90%;
+ } 
+ .h1, h2, h3, h4 {
+    font-size: 22px;
+    font-family: 'Varela Round';
+    color: white;
+ }
+ 
+ .nav {
+    background-color: #a0bed0;
+    display: flex; 
+    justify-content: flex-end;
+    padding: 30px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 90%
+}
+.nav_menu {     
+    display:flex;  
+    justify-content: flex-end;
+    width: 55%;
+    color: #fff;
+}
+.nav_link {
+    color: none;
+    margin: 20px;
+}
+.banner {
+    background-image: url("../img/foto-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
